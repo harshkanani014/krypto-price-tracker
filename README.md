@@ -136,7 +136,7 @@ https://www.getpostman.com/collections/f1d52156aadc40745fcc
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
@@ -192,14 +192,14 @@ This is an example of how to list things you need to use and how to install them
   } 
 ```
 
-5. SMTP setup goto krypto-price-tracker/settings.py and add email with password
+5. For setting up SMTP goto krypto-price-tracker/settings.py and add email with password
 
 ```sh
 EMAIL_HOST_USER = "xyz@gmail.com"
 EMAIL_HOST_PASSWORD = "your password"
 ```
 
-6. Make Migrations and migrate
+6. Perform migrations and migrate
 ```sh
   python manage.py makemigrations
 ```
