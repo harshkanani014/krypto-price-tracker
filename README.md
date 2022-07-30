@@ -86,7 +86,7 @@ the target price. As target is achieved user will recieve email with all details
 2. User can create alert by choosing his purchased crypto currency and target price to keep track on it.
 3. User can delete already created alert.
 4. Email will be triggered to user's email id when target price is achieved by current price of crypto currency.
-5. User can fetch all alerts with filer on status and currency
+5. User can fetch all alerts with filter on status and currency
 6. Pagination on all alerts list
 7. Multiple cryptocurrency supported
 8. Optimized task scheduling
@@ -162,6 +162,11 @@ This is an example of how to list things you need to use and how to install them
 ```sh
   https://redis.io/docs/getting-started/installation/install-redis-on-linux/
  ```
+
+3. Start redis
+```sh
+  redis-server
+```
  
 ### Steps to Run code on your Local setup
 1. Clone a repo
@@ -227,13 +232,26 @@ celery -A krypto_price_tracker beat --loglevel=debug --scheduler django_celery_b
 
 #### STEP-1 : 
          User can sign up by using API (http://127.0.0.1:8000/authentication/signup/) Arguement : email and password needed
+         Json Data required in Post request
+         {
+            "email":"",
+            "password:""
+         }
 #### STEP-2 : 
          User can login using API (http://127.0.0.1:8000/authentication/login/)
+          {
+            "email":"",
+            "password:""
+         }
 #### STEP-3 : 
          Now User can add alert with current name and target value in USD using API (http://127.0.0.1:8000/alerts/create/)
          So Task is assigned to celery through message broker redis which run at every 10 seconds and fetch current price
          of coin from third party API used and checks if the user alert price is achieved or not. And If user alert price 
          is achieved then email is triggred to user registered email id with alert details.
+         {
+            "currency":"",
+            "target_price":""
+         }
 #### STEP-4 :
          User can delete alert using API (http://127.0.0.1:8000/alerts/delete/id)
 #### STEP-5 : 
