@@ -238,7 +238,8 @@ celery -A krypto_price_tracker beat --loglevel=debug --scheduler django_celery_b
          User can fetch all alerts details with pagination and filter such as status, user and currency using
          API (http://127.0.0.1:8000/alerts/get-alerts/?page=x&status=x&currency=x&user=x)
    
-
+#### Use this Postman Collection JSON to use API on postman
+    https://www.getpostman.com/collections/f1d52156aadc40745fcc
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Output: 💻
