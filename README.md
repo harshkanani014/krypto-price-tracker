@@ -261,10 +261,29 @@ celery -A krypto_price_tracker beat --loglevel=debug --scheduler django_celery_b
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Output:
+ ### Authentication:
+ ###### Login
+  <img src="./images/image1.jpeg" alt="Login API">
+  
+ ###### Signup
+  <img src="./images/image2.jpeg" alt="Signup API" >
+  
+ ###### Logout
+  <img src="./images/image3.jpeg" alt="Logout API">
+  
+ ### Alerts:
+ ###### Create
+  <img src="./images/image4.jpeg" alt="Create Alert API">
+  
+ ###### Get
+  <img src="./images/image5.jpeg" alt="Get Alert API">
+  
+ ###### Delete
+  <img src="./images/image6.jpeg" alt="Delete Alert API">
 
-
-
-
+ ### Email:
+  <img src="./images/image7.jpeg" alt="Email">
 
 See the [open issues](https://github.com/harshkanani014/krypto-price-tracker/issues) for a full list of proposed features (and known issues).
 
