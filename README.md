@@ -21,7 +21,7 @@
 <h3 align="center">Krypto Price Tracker</h3>
 
   <p align="center">
-    Price tracker API to get an alert when target for given cryptocurrency is reached.
+    Price tracker API to get an alert when target for given cryptocurrency is reached. 🔥
     <br />
     <a href="https://github.com/harshkanani014/krypto-price-tracker/issues">Report Bug</a>
     ·
@@ -75,17 +75,17 @@ the target price. As target is achieved user will recieve email with all details
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-### Built With
+### Built With 🛠️
 
 * [Python](https://www.python.org/)
 
-### Framework Used
+### Framework Used 🛠️
 * [Django](https://www.djangoproject.com/)
 
-### Database used
+### Database used 🛠️
 * [Postgre SQL](https://www.postgresql.org/)
 
-### Libraries used
+### Libraries used 🛠️
 
 * [Django Rest Framework](https://www.django-rest-framework.org/)
 * [Celery](https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html)
@@ -93,11 +93,11 @@ the target price. As target is achieved user will recieve email with all details
 * [Redis (message broker)]()
 * [psycopg2]()
 
-### Standard Format
+### Standard Format 📄
 1. Code Format - PEP-8 (python standard format)
 2. API format - REST based
 
-### Tools Used :
+### Tools Used : 🛠️
 1. Postman (for API testing and API documentation)
 2. Git
 3. Github
@@ -113,12 +113,12 @@ https://www.getpostman.com/collections/f1d52156aadc40745fcc
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Getting Started 📋
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
+### Prerequisites ✏️
 
 This is an example of how to list things you need to use and how to install them.
 * python [https://www.python.org/downloads/]
@@ -126,7 +126,7 @@ This is an example of how to list things you need to use and how to install them
   ```sh
   python3 -m pip install --upgrade pip
   ```
-### Database Setup
+### Database Setup 📦
 1. Install PostgreSQl with pgAdmin
 ##### Download postgreSQL from following link and install
 ##### https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
@@ -134,7 +134,7 @@ This is an example of how to list things you need to use and how to install them
 2. Set Up Database
 ##### Open PgAdmin and Create a database with name as per choice in PgAdmin.
 
-### Redis Setup
+### Redis Setup 📦
 1. Download and Install redis .msi file on windows.
 ##### https://github.com/microsoftarchive/redis/releases
 
@@ -148,7 +148,7 @@ This is an example of how to list things you need to use and how to install them
   redis-server
 ```
  
-### Steps to Run code on your Local setup
+### Steps to Run code on your Local setup ✨
 1. Clone a repo
 2. Create and Activate virtual environment 
     ```sh
@@ -208,7 +208,7 @@ celery -A krypto_price_tracker worker -l info -P gevent
 celery -A krypto_price_tracker beat --loglevel=debug --scheduler django_celery_beat.schedulers:DatabaseScheduler
 ```
 
-### Usage
+### Usage 💬
 
 #### STEP-1 : 
          User can sign up by using API (http://127.0.0.1:8000/authentication/signup/) Arguement : email and password needed
@@ -241,7 +241,7 @@ celery -A krypto_price_tracker beat --loglevel=debug --scheduler django_celery_b
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Output:
+## Output: 💻
  ### Authentication:
  ###### Login
   <img src="./images/image1.jpeg" alt="Login API">
@@ -272,7 +272,7 @@ See the [open issues](https://github.com/harshkanani014/krypto-price-tracker/iss
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contributing 💡
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -294,6 +294,8 @@ Don't forget to give the project a star! Thanks again!
 Your Name - Harsh Kanani (19BCE2562)- harshkanani014@gmail.com
 
 Project Link: [https://github.com/harshkanani014/krypto-price-tracker](https://github.com/harshkanani014/krypto-price-tracker)
+
+Linkedin : [harsh kanani](https://www.linkedin.com/in/harsh-kanani-69a45818b/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
