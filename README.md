@@ -1,12 +1,4 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7950718&assignment_repo_type=AssignmentRepo)
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
 
 
@@ -18,25 +10,19 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
+<!--
 [![LinkedIn][linkedin-shield]][linkedin-url]
+-->
 
 
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
 
 <h3 align="center">Krypto Price Tracker</h3>
 
   <p align="center">
-    project_description
+    Price tracker API to get an alert when target for given cryptocurrency is reached.
     <br />
-    <a href="https://github.com/harshkanani014/krypto-price-tracker"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/harshkanani014/krypto-price-tracker">View Demo</a>
-    ·
     <a href="https://github.com/harshkanani014/krypto-price-tracker/issues">Report Bug</a>
     ·
     <a href="https://github.com/harshkanani014/krypto-price-tracker/issues">Request Feature</a>
@@ -56,18 +42,13 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="#getting-started">Installation & Setup</a>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#output">Output</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
