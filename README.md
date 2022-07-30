@@ -57,8 +57,8 @@
 ## About The Project
 
 Krypto Price Tracker API allows users to keep track of their favourite crypto currency price target with flexible feature
-to add alerts with all crypto currency available and target value. User will get notified by email if current price is equal to 
-the target price. As target is achieved user will recieve email with all details regarding alert created.
+to add alerts with all crypto currency available and target value. User will get notified by email when current price crosses
+or equal to targer price. As target is achieved user will recieve email with all details regarding alert created.
 
 ### Krypto Price Tracker provides the following features:
 
@@ -66,11 +66,11 @@ the target price. As target is achieved user will recieve email with all details
 2. User can create alert by choosing his purchased crypto currency and target price to keep track on it.
 3. User can delete already created alert.
 4. Email will be triggered to user's email id when target price is achieved by current price of crypto currency.
-5. User can fetch all alerts with filter on status and currency
-6. Pagination on all alerts list
-7. Multiple cryptocurrency supported
-8. Optimized task scheduling
-7. Optimized fetching of all alerts using caching
+5. User can fetch all alerts with filter on status and currency.
+6. Pagination on all alerts list.
+7. Multiple cryptocurrency supported.
+8. Optimized task scheduling.
+7. Optimized fetching of all alerts using caching.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -82,10 +82,10 @@ the target price. As target is achieved user will recieve email with all details
 ### Framework Used 🛠️
 * [Django](https://www.djangoproject.com/)
 
-### Database used 🛠️
+### Database Used 🛠️
 * [Postgre SQL](https://www.postgresql.org/)
 
-### Libraries used 🛠️
+### Libraries Used 🛠️
 
 * [Django Rest Framework](https://www.django-rest-framework.org/)
 * [Celery](https://docs.celeryq.dev/en/stable/django/first-steps-with-django.html)
